@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/bootstrap-icons.svg"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="chat.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <div class="header-avt">
+                    <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Avatar_icon_green.svg/2048px-Avatar_icon_green.svg.png"> -->
+                </div>
+            </div>
+            <div class="sidebar-body">
+                <div class="bi bi-chat-right"></div>
+                <div class="bi bi-calendar-event"></div>
+                <div class="bi bi-camera-video"></div>
+                <div class="bi bi-telephone"></div>
+                <div class="bi bi-people"></div>
+                <div class="bi bi-image"></div>
+            </div>
+            <div class="sidebar-footer">
+                <div class="footer-add">
+                    <div class="bi bi-plus"></div>
+                </div>
+            </div>
+        </div>
+        <div class="item-left">
+            <div class="left-title">
+                <div class="main-title">Message</div>
+                <div class="bi bi-pencil-square"></div>
+            </div>
+            <div class="left-search">
+                <button class="bi bi-search"></button>
+                <input type="text" placeholder="Search...">
+            </div>
+            <div class="left-pinned">
+                <div class="pinned-title">
+                    <div class="bi bi-pin-angle-fill"></div>
+                    <div>PINNED</div>
+                </div>
+                <div class="left-message">
+                    <div class="left-message-avt">
+                        <img src="https://cdn-icons-png.flaticon.com/512/147/147142.png">
+                    </div>
+                    <div class="left-message-content">
+                        <div class="content-name">Mr.July</div>
+                        <div class="content-main">Je me demande depuis plusieurs mois pourquoi mon chat miaule le matin ? Vous aussi ? Voyons pour quelles raisons possibles les chats peuvent miauler</div>
+                    </div>
+                    <div class="message-status">
+                        <div class="message-time">11:59</div>
+                        <div class="message-read-check bi bi-check-all"></div>
+                    </div>
+                </div>
+                <div class="left-message">
+                    <div class="left-message-avt">
+                        <img src="https://cdn-icons-png.flaticon.com/512/147/147142.png">
+                    </div>
+                    <div class="left-message-content">
+                        <div class="content-name">Mr.July</div>
+                        <div class="content-main none-read">Je me demande depuis plusieurs mois pourquoi mon chat miaule le matin ? Vous aussi ? Voyons pour quelles raisons possibles les chats peuvent miauler</div>
+                    </div>
+                    <div class="message-status">
+                        <div class="message-time">11:59</div>
+                        <div class="message-read-none">2</div>
+                    </div>
+                </div>
+
+                <div class="left-message">
+                    <div class="left-message-avt">
+                        <img src="https://cdn-icons-png.flaticon.com/512/147/147142.png">
+                    </div>
+                    <div class="left-message-content">
+                        <div class="content-name">Mr.July</div>
+                        <div class="content-main none-read">Je me demande depuis plusieurs mois pourquoi mon chat miaule le matin ? Vous aussi ? Voyons pour quelles raisons possibles les chats peuvent miauler</div>
+                    </div>
+                    <div class="message-status">
+                        <div class="message-time">11:59</div>
+                        <div class="message-read-none">2</div>
+                    </div>
+                </div>
+            </div>
+            <div class="left-all">
+                <div class="all-title">
+                    <div class="bi bi-chat-dots-fill"></div>
+                    <div>ALL MESSAGE</div>
+                </div>
+                <div class="all-scroll">
+                    <div class="left-message">
+                        <div class="left-message-avt">
+                            <img src="https://cdn-icons-png.flaticon.com/512/147/147142.png">
+                        </div>
+                        <div class="left-message-content">
+                            <div class="content-name">Mr.July</div>
+                            <div class="content-main">Je me demande depuis plusieurs mois pourquoi mon chat miaule le matin ? Vous aussi ? Voyons pour quelles raisons possibles les chats peuvent miauler</div>
+                        </div>
+                        <div class="message-status">
+                            <div class="message-time">11:59</div>
+                            <div class="message-read-check bi bi-check-all"></div>
+                        </div>
+                    </div>
+                    <div class="left-message">
+                        <div class="left-message-avt">
+                            <img src="https://cdn-icons-png.flaticon.com/512/147/147142.png">
+                        </div>
+                        <div class="left-message-content">
+                            <div class="content-name">Mr.July</div>
+                            <div class="content-main none-read">Je me demande depuis plusieurs mois pourquoi mon chat miaule le matin ? Vous aussi ? Voyons pour quelles raisons possibles les chats peuvent miauler</div>
+                        </div>
+                        <div class="message-status">
+                            <div class="message-time">11:59</div>
+                            <div class="message-read-none">2</div>
+                        </div>
+                    </div>
+
+                    <div class="left-message">
+                        <div class="left-message-avt">
+                            <img src="https://cdn-icons-png.flaticon.com/512/147/147142.png">
+                        </div>
+                        <div class="left-message-content">
+                            <div class="content-name">Mr.July</div>
+                            <div class="content-main none-read">Je me demande depuis plusieurs mois pourquoi mon chat miaule le matin ? Vous aussi ? Voyons pour quelles raisons possibles les chats peuvent miauler</div>
+                        </div>
+                        <div class="message-status">
+                            <div class="message-time">11:59</div>
+                            <div class="message-read-none">2</div>
+                        </div>
+                    </div>
+
+                    <div class="left-message">
+                        <div class="left-message-avt">
+                            <img src="https://cdn-icons-png.flaticon.com/512/147/147142.png">
+                        </div>
+                        <div class="left-message-content">
+                            <div class="content-name">Mr.July</div>
+                            <div class="content-main">Je me demande depuis plusieurs mois pourquoi mon chat miaule le matin ? Vous aussi ? Voyons pour quelles raisons possibles les chats peuvent miauler</div>
+                        </div>
+                        <div class="message-status">
+                            <div class="message-time">11:59</div>
+                            <div class="message-read-check bi bi-check-all"></div>
+                        </div>
+                    </div>
+
+                    <div class="left-message">
+                        <div class="left-message-avt">
+                            <img src="https://cdn-icons-png.flaticon.com/512/147/147142.png">
+                        </div>
+                        <div class="left-message-content">
+                            <div class="content-name">Mr.July</div>
+                            <div class="content-main">Je me demande depuis plusieurs mois pourquoi mon chat miaule le matin ? Vous aussi ? Voyons pour quelles raisons possibles les chats peuvent miauler</div>
+                        </div>
+                        <div class="message-status">
+                            <div class="message-time">11:59</div>
+                            <div class="message-read-check bi bi-check-all"></div>
+                        </div>
+                    </div>
+
+                    <div class="left-message">
+                        <div class="left-message-avt">
+                            <img src="https://cdn-icons-png.flaticon.com/512/147/147142.png">
+                        </div>
+                        <div class="left-message-content">
+                            <div class="content-name">Mr.July</div>
+                            <div class="content-main">Je me demande depuis plusieurs mois pourquoi mon chat miaule le matin ? Vous aussi ? Voyons pour quelles raisons possibles les chats peuvent miauler</div>
+                        </div>
+                        <div class="message-status">
+                            <div class="message-time">11:59</div>
+                            <div class="message-read-check bi bi-check-all"></div>
+                        </div>
+                    </div>
+
+                    <div class="left-message">
+                        <div class="left-message-avt">
+                            <img src="https://cdn-icons-png.flaticon.com/512/147/147142.png">
+                        </div>
+                        <div class="left-message-content">
+                            <div class="content-name">Mr.July</div>
+                            <div class="content-main">Je me demande depuis plusieurs mois pourquoi mon chat miaule le matin ? Vous aussi ? Voyons pour quelles raisons possibles les chats peuvent miauler</div>
+                        </div>
+                        <div class="message-status">
+                            <div class="message-time">11:59</div>
+                            <div class="message-read-check bi bi-check-all"></div>
+                        </div>
+                    </div>
+
+                    <div class="left-message">
+                        <div class="left-message-avt">
+                            <img src="https://cdn-icons-png.flaticon.com/512/147/147142.png">
+                        </div>
+                        <div class="left-message-content">
+                            <div class="content-name">Mr.July</div>
+                            <div class="content-main">Je me demande depuis plusieurs mois pourquoi mon chat miaule le matin ? Vous aussi ? Voyons pour quelles raisons possibles les chats peuvent miauler</div>
+                        </div>
+                        <div class="message-status">
+                            <div class="message-time">11:59</div>
+                            <div class="message-read-check bi bi-check-all"></div>
+                        </div>
+                    </div>
+
+                    <div class="left-message">
+                        <div class="left-message-avt">
+                            <img src="https://cdn-icons-png.flaticon.com/512/147/147142.png">
+                        </div>
+                        <div class="left-message-content">
+                            <div class="content-name">Mr.July</div>
+                            <div class="content-main">Je me demande depuis plusieurs mois pourquoi mon chat miaule le matin ? Vous aussi ? Voyons pour quelles raisons possibles les chats peuvent miauler</div>
+                        </div>
+                        <div class="message-status">
+                            <div class="message-time">11:59</div>
+                            <div class="message-read-check bi bi-check-all"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="item-center">
+            <div class="center-header">
+                <div class="center-left">
+                    <div class="left-message-avt">
+                        <img src="https://cdn-icons-png.flaticon.com/512/147/147142.png">
+                        <div class="online-point"></div>
+                    </div>
+                    <div class="left-message-content">
+                        <div class="content-name">Mr.July</div>
+                        <div class="content-status">Online</div>
+                    </div>
+                </div>
+                <div class="center-right">
+                    <div class="bi bi-camera-video"></div>
+                    <div class="bi bi-telephone"></div>
+                    <div class="bi bi-three-dots"></div>
+                </div>
+            </div>
+            <div class="center-body">
+
+                <div class="body-content">
+
+                    <div class="content-left">
+                        <div class="left-message-avt">
+                            <img src="https://cdn-icons-png.flaticon.com/512/147/147142.png">
+                        </div>
+                        <div class="content-left-main">
+                            <div class="main-name">Mr.July</div>
+                            <div class="main-chat">Hello</div>
+                        </div>
+                    </div>
+                    <div class="content-right">
+                        <div class="left-message-avt">
+                            <img src="https://lh3.googleusercontent.com/-xsC78qi0_eM/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuclAbakqwJa-VwEa9eczpM7uTbfqCA/photo.jpg?sz=46">
+                        </div>
+                        <div class="content-left-main">
+                            <div class="main-name">You</div>
+                            <div class="main-chat">How are you today? How are you today?How are you today?How are you today?How are you today?How are you today?How are you today?How are you today?</div>
+                        </div>
+                    </div>
+                    <div class="content-right">
+                        <div class="left-message-avt">
+                            <img src="https://lh3.googleusercontent.com/-xsC78qi0_eM/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuclAbakqwJa-VwEa9eczpM7uTbfqCA/photo.jpg?sz=46">
+                        </div>
+                        <div class="content-left-main">
+                            <div class="main-name">You</div>
+                            <div class="main-chat">How are you today? How are you today?How are you today?How are you today?How are you today?How are you today?How are you today?How are you today?</div>
+                        </div>
+                    </div>
+                    <div class="content-left">
+                        <div class="left-message-avt">
+                            <img src="https://cdn-icons-png.flaticon.com/512/147/147142.png">
+                        </div>
+                        <div class="content-left-main">
+                            <div class="main-name">Mr.July</div>
+                            <div class="main-chat">Hello</div>
+                        </div>
+                    </div>
+                    <div class="content-right">
+                        <div class="left-message-avt">
+                            <img src="https://lh3.googleusercontent.com/-xsC78qi0_eM/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuclAbakqwJa-VwEa9eczpM7uTbfqCA/photo.jpg?sz=46">
+                        </div>
+                        <div class="content-left-main">
+                            <div class="main-name">You</div>
+                            <div class="main-chat">How are you today? How are you today?How are you today?How are you today?How are you today?How are you today?How are you today?How are you today?</div>
+                        </div>
+                    </div>
+                    <div class="content-right">
+                        <div class="left-message-avt">
+                            <img src="https://lh3.googleusercontent.com/-xsC78qi0_eM/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuclAbakqwJa-VwEa9eczpM7uTbfqCA/photo.jpg?sz=46">
+                        </div>
+                        <div class="content-left-main">
+                            <div class="main-name">You</div>
+                            <div class="main-chat">How are you today? How are you today?How are you today?How are you today?How are you today?How are you today?How are you today?How are you today?</div>
+                        </div>
+                    </div>
+                    <div class="break">
+                        <hr>
+                        <div class="break-time">Yesterday</div>
+                    </div>
+                </div>
+            </div>
+            <div class="center-footer">
+                <div class="chat-field">
+                    <input type="text" class="text" placeholder="Your messages...">
+                    <button class="bi bi-mic"></button>
+                    <button class="bi bi-paperclip"></button>
+                    <button class="bi bi-send-fill"></button>
+                </div>
+            </div>
+        </div>
+        <div class="item-right">
+            <div class="right-header">
+                <div class="chat-avt">
+                    <img src="https://cdn-icons-png.flaticon.com/512/147/147142.png">
+                </div>
+                <div class="chat-name">Mr.July</div>
+                <input type="text" placeholder="Create something New">
+            </div>
+            <div class="right-body">
+                <div class="see-member">
+                    <div class="see-title">Member</div>
+                    <div class="bi bi-chevron-down"></div>
+                </div>
+                <div class="add-member">
+                    <div class="bi bi-plus"></div>
+                    <div class="add-content">Add member</div>
+                </div>
+                <div class="member">
+                    <div class="member-item">
+                        <div class="member-avt">
+                            <img src="https://cdn-icons-png.flaticon.com/512/147/147142.png">
+                        </div>
+                        <div class="member-name">Mr.July</div>
+                    </div>
+                    <div class="member-item">
+                        <div class="member-avt">
+                            <img src="https://cdn-icons-png.flaticon.com/512/147/147142.png">
+                        </div>
+                        <div class="member-name">Mr.July</div>
+                    </div>
+                    <div class="member-item">
+                        <div class="member-avt">
+                            <img src="https://cdn-icons-png.flaticon.com/512/147/147142.png">
+                        </div>
+                        <div class="member-name">Mr.July</div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-footer">
+                <div class="see-attach">
+                    <div class="see-title">Attachments</div>
+                    <div class="bi bi-chevron-down"></div>
+                </div>
+                <div class="document">
+                    <div class="document-icon bi bi-file-earmark"></div>
+                    <div class="document-content">
+                        <div class="document-name">Document</div>
+                        <div class="document-size">129 Files - 375MB</div>
+                    </div>
+                </div>
+                <div class="document">
+                    <div class="document-icon bi bi-image-fill"></div>
+                    <div class="document-content">
+                        <div class="document-name">Photos</div>
+                        <div class="document-size">129 Files - 375MB</div>
+                    </div>
+                </div>
+                <div class="document">
+                    <div class="document-icon bi bi-play"></div>
+                    <div class="document-content">
+                        <div class="document-name">Videos</div>
+                        <div class="document-size">129 Files - 375MB</div>
+                    </div>
+                </div>
+                <div class="document">
+                    <div class="document-icon bi bi-folder2"></div>
+                    <div class="document-content">
+                        <div class="document-name">Other Files</div>
+                        <div class="document-size">129 Files - 375MB</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
